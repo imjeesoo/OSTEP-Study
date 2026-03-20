@@ -108,9 +108,11 @@ sys_uptime(void)
   return xticks;
 }
 
+//--- MY IMPLEMENTATION START---
 uint64
 sys_hello(void)
 {
   printf("Hello, It's my first xv6 project!\n");
   return 0;
 }
+//--- MY IMPLEMENTATION END---
