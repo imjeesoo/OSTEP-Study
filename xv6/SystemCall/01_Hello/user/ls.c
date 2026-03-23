@@ -79,9 +79,7 @@ main(int argc, char *argv[])
   int i;
 
   if(argc < 2){
-    printf("ls start ->\n");
     ls(".");
-    printf("ls end!\n");
     exit(0);
   }
   for(i=1; i<argc; i++)
