@@ -111,9 +111,6 @@ sys_uptime(void)
 uint64
 sys_hello(void)
 {
-  printf("Hello. It's my first xv6 project!"\n);
-  
+  printf("hello syscall\n");
   return 0;
 }
-
-
