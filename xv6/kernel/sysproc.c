@@ -107,10 +107,3 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
-
-uint64
-sys_hello(void)
-{
-  printf("Hello, It's my first xv6 project!\n");
-  return 0;
-}
